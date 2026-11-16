@@ -284,6 +284,7 @@ export type KycRecord = {
   phone?: string
   phoneVerified?: boolean
   idImgUrl?: string
+  idBackImgUrl?: string
   selfieImgUrl?: string
   status: 'not_submitted' | 'pending' | 'approved' | 'rejected'
   rejectionReason?: string

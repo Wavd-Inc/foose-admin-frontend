@@ -218,7 +218,8 @@ export function AdminKycDetailPage() {
             </div>
 
             <section className="mt-6 grid gap-5 md:grid-cols-2">
-              <DocumentPreview onPreview={setPreviewImage} title="Submitted ID document" url={kyc.idImgUrl} />
+              <DocumentPreview onPreview={setPreviewImage} title="ID front / photo page" url={kyc.idImgUrl} />
+              <DocumentPreview onPreview={setPreviewImage} title="ID back" url={kyc.idBackImgUrl} />
               <DocumentPreview onPreview={setPreviewImage} title="Submitted selfie" url={kyc.selfieImgUrl} />
             </section>
           </>
